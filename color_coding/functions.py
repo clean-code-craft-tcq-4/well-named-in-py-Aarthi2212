@@ -24,6 +24,7 @@ def get_color(pair_number):
 def print_color_coding_manual():
   manual_format = '{:<{width}} | {:<{width}} | {:<{width}}'
   print(manual_format.format("Pair number", "Major color", "Minor color", width=11))
-  for pair_number in range(1,26):
+  total_pairs = 25
+  for pair_number in range(1, total_pairs+1):
     major_color, minor_color = get_color(pair_number)
     print(manual_format.format(pair_number, major_color, minor_color, width=11))
