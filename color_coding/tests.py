@@ -1,4 +1,4 @@
-from .functions import get_color, get_pair_number
+from .translator import get_color, get_pair_number
 
 def test_number_to_pair(pair_number,
                         expected_major_color, expected_minor_color):

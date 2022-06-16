@@ -1,5 +1,5 @@
 from color_coding.tests import test_number_to_pair, test_pair_to_number
-from color_coding.functions import print_color_coding_manual
+from color_coding.translator import print_color_coding_manual
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
